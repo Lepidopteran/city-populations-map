@@ -1,4 +1,6 @@
-# US City/Town Populations with Latitude and Longitude
+# US City/Town Populations with Lat/Lng
+
+[![Release Dataset](https://github.com/Lepidopteran/city-populations-map/actions/workflows/release-dataset.yml/badge.svg)](https://github.com/Lepidopteran/city-populations-map/actions/workflows/release-dataset.yml)
 
 This is a little data experiment to see the population numbers of US cities and towns with their respective locations.
 
