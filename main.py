@@ -33,7 +33,6 @@ def main():
         )
     )
 
-    # Join the city populations with latitude and longitude data
     city_populations_with_lat_long = (
         city_populations.join_where(
             united_states_lat_long_cities,
@@ -52,9 +51,7 @@ def main():
         .unique(["latitude", "longitude"])
     )
 
-
     print("Successfully joined city populations with latitude and longitude data")
-    print(city_populations_with_lat_long)
 
     output_path = Path("output")
 
