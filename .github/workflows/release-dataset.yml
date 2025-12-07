@@ -30,7 +30,7 @@ jobs:
         run: uv run main.py
 
       - name: Upload the dataset
-        uses: softprops/soft-props-action@v2
+        uses: softprops/action-gh-release@v2
         with:
           files: |
             output/city_populations_lat_long.csv
