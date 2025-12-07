@@ -1,4 +1,4 @@
-name: Release new version of dataset
+name: Release Dataset
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - "dataset-v*.*.*"
 
 jobs:
-  uv-example:
-    name: python
+  build:
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
